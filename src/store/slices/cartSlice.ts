@@ -93,6 +93,6 @@ export const selectIsCartEmpty = createSelector(
 // Принимает RootState и string (itemId)
 // Возвращает CartItem или undefined
 export const selectCartItemById = createSelector(
-  [selectCartItems, (state: RootState, itemId: string) => itemId], // Зависимости: массив товаров и itemId
+  [selectCartItems, (_state: RootState, itemId: string) => itemId], // Зависимости: массив товаров и itemId
   (items: CartItem[], itemId: string): CartItem | undefined => items.find((item) => item.id === itemId)
 );

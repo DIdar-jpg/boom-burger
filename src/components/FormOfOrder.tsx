@@ -53,11 +53,7 @@ const FormOfOrder: React.FC = () => {
    };
 
    // В FormOfOrder:
-   const handleLocationSelected = (
-      address: string,
-      lat: number,
-      lng: number
-   ) => {
+   const handleLocationSelected = (address: string) => {
       form.setValue("adress", address, { shouldValidate: true }); // Обновляем поле "adress" в форме
       // Здесь можно сохранить lat и lng, если они нужны
    };

@@ -15,7 +15,7 @@ const clientSlice = createSlice({
     name: 'client',
     initialState,
     reducers: {
-      setClient: (state, action: PayloadAction<Client>): Client => {
+      setClient: (_state, action: PayloadAction<Client>): Client => {
          return action.payload;
       },
       clearClient: () => {

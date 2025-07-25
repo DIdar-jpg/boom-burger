@@ -37,7 +37,7 @@ const OpenStreetMapModal: React.FC<MapModalProps> = ({
 }) => {
     
    const { i18n } = useTranslation();
-   const [ language, setLanguage ] = useState(i18n.language);
+   const [ language, _setLanguage ] = useState(i18n.language);
 
    const baseUrl = import.meta.env.VITE_NOMINATIM_REVERSE_API_URL;
    const [currentPosition, setCurrentPosition] = useState<LatLngTuple | null>(
