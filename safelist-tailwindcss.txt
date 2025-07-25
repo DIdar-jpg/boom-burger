@@ -1,0 +1,12 @@
+text-primary
+bg-primary
+group-hover:text-primary 
+
+text-destructive
+bg-destructive
+group-hover:text-destructive
+
+text-chart-2
+bg-chart-2
+group-hover:text-chart-2
+
