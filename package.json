@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist" 
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
@@ -26,6 +26,7 @@
     "clsx": "^2.1.1",
     "i18next": "^25.3.2",
     "i18next-browser-languagedetector": "^8.2.0",
+    "i18next-http-backend": "^3.0.2",
     "i18next-locize-backend": "^7.0.4",
     "leaflet": "^1.9.4",
     "locize": "^4.0.14",

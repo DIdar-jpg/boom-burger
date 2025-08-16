@@ -12,7 +12,7 @@ const foodData = [
     quantity: 1, 
     weight: 200, 
     imageUrl: cardPic, 
-    category: 'Бургер' 
+    category: 'burger'
   },
   { 
     name: 'Пепперони',
@@ -22,7 +22,7 @@ const foodData = [
     quantity: 1, 
     weight: 200, 
     imageUrl: cardPic, 
-    category: 'Пицца' 
+    category: 'pizza'
   },
   { 
     name: 'Хот-дог XXL',
@@ -32,7 +32,7 @@ const foodData = [
     quantity: 1, 
     weight: 200, 
     imageUrl: cardPic, 
-    category: 'Хотдоги' 
+    category: 'hotDogs' 
   },
   { 
     name: 'Фри + Наггетсы',
@@ -42,7 +42,7 @@ const foodData = [
     quantity: 1, 
     weight: 200, 
     imageUrl: cardPic, 
-    category: 'Фастфуд' 
+    category: 'fastFood' 
   },
   { 
     name: 'Двойной бургер',
@@ -52,7 +52,7 @@ const foodData = [
     quantity: 1, 
     weight: 200, 
     imageUrl: cardPic, 
-    category: 'Бургер' 
+    category: 'burger'
   },
   { 
     name: 'Маргарита',
@@ -62,7 +62,7 @@ const foodData = [
     quantity: 1, 
     weight: 200, 
     imageUrl: cardPic, 
-    category: 'Пицца' 
+    category: 'pizza'
   }
 ]
 
